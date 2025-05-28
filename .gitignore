@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Model weights - typically large files, exclude from Git
+*.pt
+*.pth
+*.h5
+*.onnx
+*.weights
+
+# Data files
+*.csv
+*.xls
+*.xlsx
+*.db
+*.sqlite
+
+# Large images datasets
+datasets/
+imagenes/
+
+# Logs
+logs/
+*.log
+
+# Local configuration
+.env
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Exception: Include example images, resource files, and default models
+!resources/*.jpg
+!resources/*.png
+!resources/default_model.pt
